@@ -1,5 +1,6 @@
 import Navbar from "../../component/Navbar/Navbar";
 import Button from "../../component/Button/Button";
+import "./About.css"
 
 const About = () => {
   return (
@@ -8,18 +9,7 @@ const About = () => {
       <br/>
       <h1>This is About Page</h1>
       <br/>
-      <p>
-        Wild animals are animals that live in forests. These animals are not
-        normally domesticated. The major wild animals of India are elephant,
-        tiger, lion, deer, bear etc. Wild animals are very important in
-        balancing the environment. They provide stability to different natural
-        processes of nature. It can be found in all ecosystems, desert, rain
-        forests, plains and other areas. In India, we can see various wild
-        animals in the forest. Wild animals help to maintain the ecological
-        balance of nature and maintain the food chain. We get useful substances
-        and wild animal products like ivory, leather, honey, tusk etc from these
-        animals. We should protect wild animals.
-      </p>
+      <img src="https://cdn.acodez.in/wp-content/uploads/2022/03/Tips-for-Creating-a-Killer-About-Us-Page-on-Your-Website-banner-image-1.jpg" className="about-img"/>
       <br/>
       <Button text="Submit"/>
     </>
